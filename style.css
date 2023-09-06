@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(imagens/background.png);
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+
+h1, h2, h3, h4, p, figure{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+/*topo*/
+
+#topo{
+    background-color: #F2F2F2;
+    border-bottom: solid 1px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+#topoFlex{
+    display: flex;
+
+}
+
+h1 img{
+    margin-top: 5px;
+    width: 85px;
+
+
+}
+
+nav{
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 1%;
+}
+
+nav a:link, nav a:visited{
+    text-decoration: solid;
+    color: black;
+    transition: background-color 1s;
+    padding: 14px 25px;
+    min-height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+}
+
+nav a:hover, nav a:focus{
+    background-color: #D504D9;
+    color: #000;
+    transition: inherit;
+    border-radius: 5%;
+}
+
+/*inicio/ entrada*/
+
+#inicio{
+    background-image: url(imagens/backgroundInicio480px.png);
+    width: 480px;
+    height: 260px;
+
+}
+
+hr{
+    height: 12px;
+    width: 100%;
+    background-color: #05F2F2 ;
+}
+
+/*o que fazemos*/
+
+h1{
+    /* margin-left: 55%; */
+    text-align: center;
+
+} 
+
+#oqueFazemos, #comoFaz{
+    text-align: center;
+}
+
+#comoFaz{
+    margin-right: 55%;
+    padding: 4%;
+}
+
+#imagemCodigo{
+    margin-left: 55%;
+    border-radius: 5%;
+}
+
+#metodologia{
+    position: relative;
+    flex-direction: row;
+}
