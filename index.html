@@ -1,171 +1,306 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Home</title>
 
+
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
+
     <header id="topo">
+
         <div id="topoFlex">
+
             <h1>
+
                 <a href="index.html"><img src="/imagens/logo.png" alt="Logotipo" id="logotipo"></a>
+
             </h1>
+
             <nav>
+
                 <a href="#homeLink" tabindex="1">Home</a>
+
                 <!--tabindex é utilizado para a acessibilidade-->
+
                 <a href="#metodologiaLink" tabindex="2">Metodologia</a>
+
                 <a href="#projetosLink" tabindex="3">Projetos</a>
+
                 <a href="#faqLink" tabindex="4">FAQ </a>
+
                 <a href="#contatoLink" tabindex="5">Contato</a>
+
             </nav>
+
         </div>
+
     </header>
 
+
+
     <main id="conteudo">
+
         <a id="homeLink"></a>
+
         <div id="inicio">
+
             <div id="inicioButton">
-                <h1>Criamos experiências digitais</h1>
+
+                <h1 id="experiencias">Criamos experiências digitais</h1>
+
                 <button id="entendaMais" name="entenda">Entenda mais</button>
+
             </div>
+
             <div id=""></div>
+
         </div>
+
+
 
         <hr>
 
-        <div id="">
-            <a id="metodologiaLink"></a>
-            <div id="oqueFazemos">
-                <h2>O que e como fazemos:</h2>
-                <p>Criamos mais do que sites, criamos EXPERIÊNCIAS...
-                    Através de nossos métodos, chegamos no produto final que irá TRANSFORMAR a forma como se navega. Conheça algumas de nossas etapas de criação:</p>
-            </div>
-            <div id="comoFaz">
-                <h3>Briefing</h3>
-                <p>Iremos nos reunir e estabelecer pontos e aspectos que serão indispensáveis para a criação do site. Desde o conceito principal, até a forma como vamos transmitir esse conceito para o usuário.</p>
-                <h3>Desenvolvimento</h3>
-                <p>Traremos a vocês um breve vislumbre de como será seu site (podendo ser alterado). Após isso, criaremos toda a estrutura, de forma responsiva para a melhor navegação possível.</p>
-                <h3>Suporte</h3>
-                <p>Com o site em andamento, nosso time estará sempre à disposição para eventuais manutenções e ajustes.</p>
-            </div>
 
-            <div id="imagemCodigo">
-                <img src="imagens/codigo.png">
+
+        <div id="metodologia">
+
+            <a id="metodologiaLink"></a>
+
+            <div id="oqueFazemos">
+
+                <h2>O que e como fazemos:</h2>
+
+                <p>Criamos mais do que sites, criamos EXPERIÊNCIAS...
+
+                    Através de nossos métodos, chegamos no produto final que irá TRANSFORMAR a forma como se navega.
+                    Conheça algumas de nossas etapas de criação:</p>
+
+            </div>
+            <div class="flexComoFaz">
+                <div id="comoFaz">
+
+                    <h3>Briefing</h3>
+
+                    <p>Iremos nos reunir e estabelecer pontos e aspectos que serão indispensáveis para a criação do
+                        site. Desde o conceito principal, até a forma como vamos transmitir esse conceito para o
+                        usuário.</p>
+
+                    <h3>Desenvolvimento</h3>
+
+                    <p>Traremos a vocês um breve vislumbre de como será seu site (podendo ser alterado). Após isso,
+                        criaremos toda a estrutura, de forma responsiva para a melhor navegação possível.</p>
+
+                    <h3>Suporte</h3>
+
+                    <p>Com o site em andamento, nosso time estará sempre à disposição para eventuais manutenções e
+                        ajustes.</p>
+
+                </div>
+
+
+
+                <div class="imagemCodigo">
+
+                    <img src="imagens/codigo.png">
+
+                </div>
+
             </div>
         </div>
+
+
 
         <h1>Projetos</h1>
+
         <a id="projetosLink"></a>
 
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+
 
         <div>
+
+            <div></div>
+
+            <div></div>
+
+            <div></div>
+
+            <div></div>
+
+        </div>
+
+
+
+        <div class="nossosClientes">
             <div>
                 <h1>Nossos Clientes</h1>
             </div>
 
+
+
             <div>
 
             </div>
         </div>
+
+
 
         <div>
             <a id="faqLink"></a>
             <h1>Dúvidas frequentes</h1>
         </div>
 
-        <div>
-            <h3>Nossa equipe</h3>
 
+
+        <div class="nossaEquipe">
+            <h1>Nossa equipe</h1>
+
+            <aside class="fotoEquipe">
+                <img src="/imagens/fotoLarissa.png">
+                <img src="/imagens/fotoFabi.png">
+                <img src="/imagens/fotoFelipe.png">
+                <img src="/imagens/fotoDani.png">
+            </aside>
         </div>
 
+
+
         <div class="conteudo-info" id="conteudo-contato">
+
             <article class="cont-contato">
+
                 <div class="formulario">
                     <a id="contatoLink"></a>
                     <h2 class="titulo">Contato</h2>
                     <p>Preencha os campos abaixo para entrar em contato com nossa equipe de atendimento.</p>
                     <form action="" id="form-contato" method="post">
+
                         <p>
-                            <label for="nome" >Nome:</label>
+                            <label for="nome">Nome:</label>
                             <input tabindex="5" required type="text" id="nome" name="nome">
                         </p>
 
+
+
                         <p>
-                            <label for="telefone" >Celular:</label>
+                            <label for="telefone">Celular:</label>
                             <input tabindex="7" required type="tel" id="telefone" name="telefone">
                         </p>
 
-                        <p>
-                            <label for="email" >E-mail:</label>
-                            <input tabindex="6" required type="email" id="email" name="email">
-                        </p>
+
 
                         <p>
-                            <label for="assunto" >Assunto:</label>
+
+                            <label for="email">E-mail:</label>
+                            <input tabindex="6" required type="email" id="email" name="email">
+
+                        </p>
+
+
+
+                        <p>
+
+                            <label for="assunto">Assunto:</label>
                             <input tabindex="8" required type="text" id="assunto" name="assunto">
                         </p>
 
+
+
                         <p>
-                            <label for="mensagem" >Mensagem:</label>
+                            <label for="mensagem">Mensagem:</label>
                             <textarea tabindex="9" id="mensagem" name="mensagem" cols="30" rows="6"></textarea>
                         </p>
+
                         <p>
+
                             <button tabindex="10" id="limpar" type="reset" name="limpar">Limpar campos </button>
+
                             <button tabindex="11" id="enviar" name="enviar">Enviar dados</button>
+
                         </p>
+
                     </form>
+
+
 
                 </div>
 
+
+
     </main>
 
+
+
     <footer class="rodape">
+
         <div class="rodape-conteudo">
+
             <div id="logo-rodape">
-                <a href="index.html"><img src="imagem/logo.png" alt="Logotipo"></a>
+
+                <a href="index.html"><img src="/imagens/logo.png" alt="Logotipo"></a>
+
             </div>
+
             <div class="menu-rodape">
+
                 <ul>
+
                     <li><a href="index.html">Home</a></li>
+
                     <li><a href="#">Metodologia</a></li>
+
                     <li><a href="#">Projetos</a></li>
+
                     <li><a href="#">FAQ</a></li>
+
                     <li><a href="#">Contato</a></li>
+
                 </ul>
+
             </div>
-            <div class="menu-rodape">
-                <ul>
-                    <li><a href="">Pacotes</a></li>
-                    <li><a href="acessorios.html">Acessorios</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </div>
+
             <div class="redes">
+
                 <aside>
+
                     <img src="imagens/linkedin.png" alt="Logo do Linkedin">
                     <img src="imagens/instagram.png" alt="Logo do Instagram">
                     <img src="imagens/whatsapp.png" alt="Logo do WhatsApp">
                 </aside>
+
             </div>
-        </div>
-        <div class="assinatura">
-            <p>Desenvolvido por <b>Front Mind</b> Site acadêmico | 
-                Todos os direitos reservados | 
-                SENAC TITO &copy; 2023</p>
 
         </div>
+
+        <div class="assinatura">
+
+            <p>Desenvolvido por <b>Front Mind</b> Site acadêmico |
+                Todos os direitos reservados |
+                SENAC TITO &copy; 2023</p>
+
+
+
+        </div>
+
+
 
     </footer>
 
+
+
 </body>
+
 </html>
